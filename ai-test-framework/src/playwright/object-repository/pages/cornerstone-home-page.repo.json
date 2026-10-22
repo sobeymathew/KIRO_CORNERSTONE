@@ -1,0 +1,253 @@
+{
+  "page": "cornerstone-home",
+  "url": "https://www.cornerstoneondemand.com/",
+  "verifiedAt": "2026-10-22",
+  "verifiedBy": "playwright-mcp-healer",
+  "elements": {
+    "header": {
+      "locator": "#top-level-header",
+      "type": "container",
+      "interaction": "visible-check",
+      "verified": true
+    },
+    "logo": {
+      "locator": "a[aria-label='Cornerstone Logo'] img",
+      "type": "image",
+      "interaction": "visible-check",
+      "verified": true
+    },
+    "logoLink": {
+      "locator": "a[aria-label='Cornerstone Logo']",
+      "type": "link",
+      "interaction": "click",
+      "verified": true
+    },
+    "skipToMainContent": {
+      "locator": "a:has-text('Skip to main content')",
+      "type": "link",
+      "interaction": "visible-check",
+      "verified": true
+    },
+    "announcementBanner": {
+      "locator": "text=Nominate your organization or a standout leader",
+      "type": "banner",
+      "interaction": "visible-check",
+      "verified": true
+    },
+    "applyNowLink": {
+      "locator": "a[href='/cornerstone-catalyst-awards']",
+      "type": "link",
+      "interaction": "click",
+      "verified": true
+    },
+    "navProducts": {
+      "locator": "#top-level-nav button:has-text('Products')",
+      "type": "button",
+      "interaction": "click",
+      "verified": true,
+      "notes": "Desktop nav — two buttons exist (desktop + mobile menu); first() is desktop"
+    },
+    "navIndustries": {
+      "locator": "#top-level-nav button:has-text('Industries')",
+      "type": "button",
+      "interaction": "click",
+      "verified": true
+    },
+    "navCustomers": {
+      "locator": "#top-level-nav button:has-text('Customers')",
+      "type": "button",
+      "interaction": "click",
+      "verified": true
+    },
+    "navResources": {
+      "locator": "#top-level-nav button:has-text('Resources')",
+      "type": "button",
+      "interaction": "click",
+      "verified": true
+    },
+    "navCompany": {
+      "locator": "#top-level-nav button:has-text('Company')",
+      "type": "button",
+      "interaction": "click",
+      "verified": true
+    },
+    "navBookDemo": {
+      "locator": "a[href='/demo/']",
+      "type": "link",
+      "interaction": "click",
+      "verified": true,
+      "notes": "Nav CTA — href /demo/"
+    },
+    "productsDropdown": {
+      "locator": "[data-testid='menu-container-Products'], #menu-container-Products",
+      "type": "dropdown",
+      "interaction": "visible-check",
+      "verified": true
+    },
+    "industriesDropdown": {
+      "locator": "[data-testid='menu-container-Industries'], #menu-container-Industries",
+      "type": "dropdown",
+      "interaction": "visible-check",
+      "verified": true
+    },
+    "customersDropdown": {
+      "locator": "[data-testid='menu-container-Customers'], #menu-container-Customers",
+      "type": "dropdown",
+      "interaction": "visible-check",
+      "verified": true
+    },
+    "resourcesDropdown": {
+      "locator": "[data-testid='menu-container-Resources'], #menu-container-Resources",
+      "type": "dropdown",
+      "interaction": "visible-check",
+      "verified": true
+    },
+    "companyDropdown": {
+      "locator": "[data-testid='menu-container-Company'], #menu-container-Company",
+      "type": "dropdown",
+      "interaction": "visible-check",
+      "verified": true
+    },
+    "hamburgerButton": {
+      "locator": "button[aria-controls='mobile-menu']",
+      "type": "button",
+      "interaction": "click",
+      "verified": true
+    },
+    "mobileMenu": {
+      "locator": "#mobile-menu",
+      "type": "container",
+      "interaction": "visible-check",
+      "verified": true
+    },
+    "heroH1": {
+      "locator": "h1",
+      "type": "heading",
+      "interaction": "visible-check",
+      "verified": true,
+      "notes": "Page has 2 h1 tags — first() is the hero heading"
+    },
+    "heroBookDemoCta": {
+      "locator": "a[href='/demo/']:first-of-type",
+      "type": "link",
+      "interaction": "click",
+      "verified": true
+    },
+    "exploreThePlatformLink": {
+      "locator": "a[href='/platform/']",
+      "type": "link",
+      "interaction": "click",
+      "verified": true
+    },
+    "workforceAIHeading": {
+      "locator": "text=Meet Cornerstone Workforce AI™",
+      "type": "heading",
+      "interaction": "visible-check",
+      "verified": true
+    },
+    "agentsFutureOfWork": {
+      "locator": "text=Future of Work",
+      "type": "text",
+      "interaction": "visible-check",
+      "verified": true
+    },
+    "agentsEmbarkNavigator": {
+      "locator": "text=Embark Navigator",
+      "type": "text",
+      "interaction": "visible-check",
+      "verified": true
+    },
+    "agentsSkillsArchitect": {
+      "locator": "text=Skills Architect",
+      "type": "text",
+      "interaction": "visible-check",
+      "verified": true
+    },
+    "viewEveryAgentLink": {
+      "locator": "a:has-text('View Every Agent')",
+      "type": "link",
+      "interaction": "click",
+      "verified": true
+    },
+    "statThreeSec": {
+      "locator": "text=3 sec",
+      "type": "text",
+      "interaction": "visible-check",
+      "verified": true
+    },
+    "stat180Plus": {
+      "locator": "text=180+",
+      "type": "text",
+      "interaction": "visible-check",
+      "verified": true
+    },
+    "stat50Percent": {
+      "locator": "text=50%",
+      "type": "text",
+      "interaction": "visible-check",
+      "verified": true
+    },
+    "seeAllCustomerStoriesLink": {
+      "locator": "a:has-text('See All Customer Stories')",
+      "type": "link",
+      "interaction": "click",
+      "verified": true
+    },
+    "footer": {
+      "locator": "footer",
+      "type": "container",
+      "interaction": "visible-check",
+      "verified": true
+    },
+    "footerCopyright": {
+      "locator": "footer:has-text('Cornerstone 2')",
+      "type": "text",
+      "interaction": "visible-check",
+      "verified": true
+    },
+    "footerPrivacyPolicy": {
+      "locator": "footer a:has-text('Privacy Policy')",
+      "type": "link",
+      "interaction": "click",
+      "verified": true
+    },
+    "footerTerms": {
+      "locator": "footer a:has-text('Terms and Conditions')",
+      "type": "link",
+      "interaction": "click",
+      "verified": true
+    },
+    "footerCookieStatement": {
+      "locator": "footer a:has-text('Cookie Statement')",
+      "type": "link",
+      "interaction": "click",
+      "verified": true
+    },
+    "footerAccessibility": {
+      "locator": "footer a:has-text('Accessibility')",
+      "type": "link",
+      "interaction": "click",
+      "verified": true
+    },
+    "cookieBannerAcceptAll": {
+      "locator": "button:has-text('Accept All')",
+      "type": "button",
+      "interaction": "click",
+      "verified": true,
+      "notes": "Ketch-powered consent banner — may not appear if cookies already set"
+    },
+    "cookieBannerRejectAll": {
+      "locator": "button:has-text('Reject All')",
+      "type": "button",
+      "interaction": "click",
+      "verified": true
+    },
+    "languageSelector": {
+      "locator": "button[aria-label='Language']",
+      "type": "button",
+      "interaction": "click",
+      "verified": true,
+      "notes": "Multiple — first() is desktop, last() is mobile"
+    }
+  }
+}

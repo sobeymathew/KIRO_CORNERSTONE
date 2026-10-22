@@ -6,7 +6,7 @@ import { Logger } from '../utils/logger.util';
  * All page objects in the framework must extend this class.
  */
 export abstract class BasePage {
-  protected readonly page: Page;
+  readonly page: Page;
   protected readonly logger: Logger;
 
   constructor(page: Page) {
